@@ -30,8 +30,8 @@ DB_URI = os.environ.get("DATABASE_URL", "lodu")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002098656629"))
-FORCE_SUB = os.environ.get("FORCE_SUB","-1002017610951")
+REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002017610951"))
+FORCE_SUB = os.environ.get("FORCE_SUB","-1002098656629")
 
 #TXT
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Animez_Hindi_Dub\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/About_meowtaro>meow</a></b>"
