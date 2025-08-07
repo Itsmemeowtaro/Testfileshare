@@ -8,30 +8,30 @@ from logging.handlers import RotatingFileHandler
 load_dotenv()
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8179604363:AAFF1ua6IIFu56GYPzrcj6LqXDfG15ah7Es")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "22606849"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "ef85493cd32eadcb5309b5957d8d1b86")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002134572304"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6440021089"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "")
+DB_URI = os.environ.get("DATABASE_URL", "lodu")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", ""))
-FORCE_SUB = os.environ.get("FORCE_SUB", "")
+REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", "-1002098656629"))
+FORCE_SUB = os.environ.get("FORCE_SUB", "-1002017610951")
 
 #TXT
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Animez_Hindi_Dub\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/About_meowtaro>meow</a></b>"
