@@ -166,7 +166,7 @@ async def not_joined(client: Client, message: Message):
 
     if bool(JOIN_REQUEST_ENABLE):
         invite = await client.create_chat_invite_link(
-            chat_id=FORCE_SUB_CHANNEL,
+            chat_id=FORCE_SUB,
             creates_join_request=True
         )
         ButtonUrl = invite.invite_link
