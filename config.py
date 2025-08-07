@@ -33,6 +33,10 @@ DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 REQUEST_CHANNEL = int(os.environ.get("REQUEST_CHANNEL", ""))
 FORCE_SUB = os.environ.get("FORCE_SUB", "")
 
+#TXT
+HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Animez_Hindi_Dub\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/About_meowtaro>meow</a></b>"
+ABOUT_TXT = "<b><i>About Us..\n\n‣ Made for : @Animez_Hindi_Dub\n‣ Owned by : @Animez_Hindi_Dub\n‣ Maintained by : @Animez_Hindi_Dub\n‣ Developed by : @About_meowtaro\n\n meow !!</i></b>"
+
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
