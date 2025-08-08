@@ -1,5 +1,5 @@
 # --- For-Bot-Working --------- #
-pyrogram
+pyrotgfork[fast]
 TgCrypto
 pyromod==1.5
 python-dotenv
